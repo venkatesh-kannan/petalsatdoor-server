@@ -3,10 +3,9 @@ const express = require('express');
 const Razorpay = require('razorpay');
 const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
 const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
+const { getAuth } = require('firebase-admin/auth');
 const cors = require('cors');
 var { validatePaymentVerification } = require('razorpay/dist/utils/razorpay-utils');
-const { request } = require("express");
-const { response } = require("express");
 initializeApp();
 const db = getFirestore();
 const tempOrdersRef = db.collection('tempOrders');
@@ -30,16 +29,38 @@ app.post('/', async (request, response) => {
         "amount": request.body.amount,
         "currency": request.body.currency,
         "receipt": request.body.receipt,
+        "uid": request.body.uid
     };
-    functions.logger.info("Response!", { ...reqData, uid: 'hllRByCv75aKpuTkRjrdXdK6JgNT' });
-    let resp = await instance.orders.create(reqData);
+    let validate = await validateheaders(request);
+    if(!validate.success)
+    {
+        response.status(validate.errorCode).send(validate);
+        return false;
+    }
+    functions.logger.info("Response!", { ...reqData});
+    let resp 
+    try {
+        resp = await instance.orders.create({amount: reqData.amount,currency: reqData.currency,receipt: reqData.receipt});
+    } catch (error) {
+        return {
+            success: 'false',
+            errorMessage: error,
+            errorCode: 400
+        }
+    }
     functions.logger.info("Response!", resp);
-    await tempOrdersRef.doc(resp.id).set({ createReq: reqData, createRes: resp, uid: 'hllRByCv75aKpuTkRjrdXdK6JgNT',date: new Date() });
+    await tempOrdersRef.doc(resp.id).set({ createReq: reqData, createRes: resp, uid: request.body.uid, date: new Date() });
     response.send(resp);
 });
 
 app.put('/validate', async (request, response) => {
-    functions.logger.info('Auth Validate: ', request);
+    functions.logger.info('Auth Validate: ', request.body);
+    let validate = await validateheaders(request);
+    if(!validate.success)
+    {
+        response.status(validate.errorCode).send(validate);
+        return false;
+    }
     let authReq = validatePaymentVerification({ "order_id": request.body.razorpay_order_id, "payment_id": request.body.razorpay_payment_id }, request.body.razorpay_signature, key_secret);
     functions.logger.info('Auth Complete: ', authReq);
     if (authReq) {
@@ -54,3 +75,46 @@ app.put('/validate', async (request, response) => {
 
     }
 })
+
+async function validateheaders(req) {
+    let requestedUid = req.body.uid;
+    let authToken;
+    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer ')) {
+        authToken = req.headers.authorization.split('Bearer ')[1];
+    }
+    if (!authToken) {
+        return {
+            success: false,
+            errorCode: 403,
+            message: 'Unauthorized! Missing Auth Token!'
+        }
+    }
+    let decodedToken = await decodeAuthToken(authToken);
+    console.log(decodedToken.uid,requestedUid);
+    if (decodedToken.uid === requestedUid) {
+        return {
+            success: true
+        }
+    }
+    else {
+        return {
+            success: false,
+            errorCode: 401,
+            message: 'Unauthorized! Invalid Auth Token!'
+        }
+    }
+}
+
+async function decodeAuthToken(authToken) {
+    console.log(authToken);
+    try {
+        return await getAuth().verifyIdToken(authToken,true);
+    } catch (error) {
+        console.log(error);
+        return {
+            success: 'false',
+            errorMessage: error,
+            errorCode: 401
+        }
+    }
+}
