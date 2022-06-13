@@ -1,0 +1,20 @@
+{
+  "name": "images/product/asasasa/logo_color_full.png",
+  "bucket": "petalsatdoor-app.appspot.com",
+  "contentType": "image/png",
+  "metageneration": 1,
+  "generation": 1654787565899,
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "cacheControl": "public, max-age=3600",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "d246f09f-ca6b-4c5a-a6b0-1cf0d252f134"
+  ],
+  "etag": "CDam8/l5j4Wh2dPkw5oU0aomf+w",
+  "timeCreated": "2022-06-09T15:12:45.899Z",
+  "updated": "2022-06-09T15:12:45.899Z",
+  "size": 118472,
+  "md5Hash": "frAFlsuuv237TLC2htvT0A==",
+  "crc32c": "2618885786"
+}
