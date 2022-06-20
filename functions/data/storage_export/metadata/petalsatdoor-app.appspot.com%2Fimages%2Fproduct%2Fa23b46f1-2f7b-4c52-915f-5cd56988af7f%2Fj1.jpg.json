@@ -1,0 +1,20 @@
+{
+  "name": "images/product/a23b46f1-2f7b-4c52-915f-5cd56988af7f/j1.jpg",
+  "bucket": "petalsatdoor-app.appspot.com",
+  "contentType": "image/jpeg",
+  "metageneration": 1,
+  "generation": 1655130218020,
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "cacheControl": "public, max-age=3600",
+  "contentEncoding": "identity",
+  "downloadTokens": [
+    "9bfca8cf-5892-4cf0-914d-c7604785b30e"
+  ],
+  "etag": "LiIcQIMeB9dAcGpoZJYxlJ28sBo",
+  "timeCreated": "2022-06-13T14:23:38.019Z",
+  "updated": "2022-06-13T14:23:38.023Z",
+  "size": 67621,
+  "md5Hash": "AAbNXQAcBFnvohatNJfJXg==",
+  "crc32c": "2188485389"
+}

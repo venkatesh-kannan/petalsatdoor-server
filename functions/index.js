@@ -8,7 +8,7 @@ const cors = require('cors');
 var { validatePaymentVerification } = require('razorpay/dist/utils/razorpay-utils');
 initializeApp();
 const db = getFirestore();
-const tempOrdersRef = db.collection('tempOrders');
+const tempOrdersRef = db.collection('orders');
 const app = express();
 const key_secret = 'DI2hALUlSp5N33ayXLwP9LgP';
 // Automatically allow cross-origin requests
@@ -22,6 +22,19 @@ var instance = new Razorpay({
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
 exports.pgCreateOrder = functions.https.onRequest(app);
+// const pincodes = require('../../petalsatdoor-nodejs/pincodes.json');
+// const settings = require('../../petalsatdoor-nodejs/settings.json');
+
+
+// const docRef = db.collection('deliveryLocations').doc('chennai');
+
+//  docRef.set({
+//     locations: pincodes
+// });
+
+// const docRef1 = db.collection('settings').doc('settings');
+
+//  docRef1.set(settings);
 
 
 app.post('/', async (request, response) => {
@@ -29,35 +42,41 @@ app.post('/', async (request, response) => {
         "amount": request.body.amount,
         "currency": request.body.currency,
         "receipt": request.body.receipt,
-        "uid": request.body.uid
+        "uid": request.body.uid,
+        "bookingRequestData": request.body
     };
     let validate = await validateheaders(request);
-    if(!validate.success)
-    {
+    if (!validate.success) {
         response.status(validate.errorCode).send(validate);
         return false;
     }
-    functions.logger.info("Response!", { ...reqData});
-    let resp 
-    try {
-        resp = await instance.orders.create({amount: reqData.amount,currency: reqData.currency,receipt: reqData.receipt});
-    } catch (error) {
-        return {
-            success: 'false',
-            errorMessage: error,
-            errorCode: 400
+    functions.logger.info("Response!", { ...reqData });
+    if (request.body.paymentType === 'payOnline') {
+        let resp
+        try {
+            resp = await instance.orders.create({ amount: reqData.amount, currency: reqData.currency, receipt: reqData.receipt });
+        } catch (error) {
+            return {
+                success: 'false',
+                errorMessage: error,
+                errorCode: 400
+            }
         }
+        functions.logger.info("Response!", resp);
+        await tempOrdersRef.doc(resp.id).set({ createReq: reqData, createRes: resp, uid: request.body.uid, date: new Date(), paymentType: request.body.paymentType });
+        response.send(resp);
     }
-    functions.logger.info("Response!", resp);
-    await tempOrdersRef.doc(resp.id).set({ createReq: reqData, createRes: resp, uid: request.body.uid, date: new Date() });
-    response.send(resp);
+    else {
+        await tempOrdersRef.add({ createReq: reqData, createRes: {}, uid: request.body.uid, date: new Date(), paymentType: request.body.paymentType });
+        response.send({ success: true });
+    }
+
 });
 
 app.put('/validate', async (request, response) => {
     functions.logger.info('Auth Validate: ', request.body);
     let validate = await validateheaders(request);
-    if(!validate.success)
-    {
+    if (!validate.success) {
         response.status(validate.errorCode).send(validate);
         return false;
     }
@@ -66,8 +85,8 @@ app.put('/validate', async (request, response) => {
     if (authReq) {
         let paymentDetails = await instance.payments.fetch(request.body.razorpay_payment_id);
         console.log(paymentDetails);
-        paymentDetails.captured ? response.status(200).send({ success: authReq }) : response.status(400).send({ success: false })
         await tempOrdersRef.doc(request.body.razorpay_order_id).set({ validateReq: { razorpay_order_id: request.body.razorpay_order_id, razorpay_payment_id: request.body.razorpay_payment_id, razorpay_signature: request.body.razorpay_signature }, validateRes: authReq, orderRes: paymentDetails }, { merge: true });
+        paymentDetails.captured ? response.status(200).send({ success: authReq }) : response.status(400).send({ success: false })
     }
     else {
         response.status(400).send({ success: authReq });
@@ -90,7 +109,7 @@ async function validateheaders(req) {
         }
     }
     let decodedToken = await decodeAuthToken(authToken);
-    console.log(decodedToken.uid,requestedUid);
+    console.log(decodedToken.uid, requestedUid);
     if (decodedToken.uid === requestedUid) {
         return {
             success: true
@@ -108,7 +127,7 @@ async function validateheaders(req) {
 async function decodeAuthToken(authToken) {
     console.log(authToken);
     try {
-        return await getAuth().verifyIdToken(authToken,true);
+        return await getAuth().verifyIdToken(authToken, true);
     } catch (error) {
         console.log(error);
         return {

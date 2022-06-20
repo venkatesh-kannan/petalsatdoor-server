@@ -1,0 +1,2755 @@
+[
+    {
+        "pincode": "600119",
+        "name": "",
+        "deliverySlots": []
+    },
+    {
+        "pincode": " 600088",
+        "name": "Adambakkam - 600088",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600020",
+        "name": "Adyar  - 600020",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600082",
+        "name": "Agaram - 600082",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600016",
+        "name": "Alandur - 600016",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600116",
+        "name": "Alapakkam - 600116",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600087",
+        "name": "Alwarthirunagar - 600087",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600029",
+        "name": "Aminjikarai - 600029",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600070",
+        "name": "Anakaputhur - 600070",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600018",
+        "name": "Alwarpet - 600018",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600102",
+        "name": "Anna Nagar East - 600102",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600040",
+        "name": "Anna Nagar  - 600040",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600101",
+        "name": "Anna Nagar Western Extn - 600101",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600002",
+        "name": "Anna Road - 600002",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600106",
+        "name": "Arumbakkam - 600106",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600083",
+        "name": "Ashoknagar  - 600083",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600023",
+        "name": "Aynavaram - 600023",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600090",
+        "name": "Besantnagar - 600090",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600117",
+        "name": "Bharathinagar - 600117",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Bharathipuram  - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600016",
+        "name": "Chennai Airport - 600016",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Chennai G.P.O. - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600005",
+        "name": "Chepauk - 600005",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600031",
+        "name": "Chetput - 600031",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600002",
+        "name": "Chintadripet - 600002",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600064",
+        "name": "Chitlapakkam - 600064",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600094",
+        "name": "Choolaimedu - 600094",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "Christian College Tambaram - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Chromepet - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600106",
+        "name": "D G Vaishnav College - 600106",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Darkash - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600003",
+        "name": "Edapalayam - 600003",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600008",
+        "name": "Egmore ND - 600008",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600008",
+        "name": "Egmore - 600008",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600032",
+        "name": "Ekkaduthangal - 600032",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600025",
+        "name": "Engineering College  - 600025",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600118",
+        "name": "Erukkancheri - 600118",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600008",
+        "name": "Ethiraj Salai - 600008",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Flower Bazaar - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600084",
+        "name": "Flowers Road - 600084",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600009",
+        "name": "Fort St George - 600009",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600082",
+        "name": "G K M Colony - 600082",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Ganapathipuram - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600122",
+        "name": "Gerugambakkam - 600122",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600086",
+        "name": "Gopalapuram  - 600086",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Govt Stanley Hospital - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600073",
+        "name": "Gowriwakkam - 600073",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600006",
+        "name": "Greams Road - 600006",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600032",
+        "name": "Guindy Industrial Estate - 600032",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600015",
+        "name": "Guindy North - 600015",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600064",
+        "name": "Hasthinapuram - 600064",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600104",
+        "name": "High Court Building  - 600104",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600017",
+        "name": "Hindi Prachar Sabha - 600017",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600038",
+        "name": "Icf Colony - 600038",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600036",
+        "name": "Indian Institute Of Technology - 600036",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600115",
+        "name": "Injambakkam - 600115",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600045",
+        "name": "Irumbuliyur - 600045",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600056",
+        "name": "Iyyappanthangal - 600056",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600083",
+        "name": "Jafferkhanpet - 600083",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600082",
+        "name": "Jawahar Nagar  - 600082",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600047",
+        "name": "Kadaperi - 600047",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600078",
+        "name": "Kalaignar Karunanidhi Nagar - 600078",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600097",
+        "name": "Karapakkam - 600097",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "Kasthuribainagar - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600020",
+        "name": "Kasturibai Nagar - 600020",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600117",
+        "name": "Keelakattalai - 600117",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Kelambakkam - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600010",
+        "name": "Kilpauk Medical College - 600010",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600010",
+        "name": "Kilpauk - 600010",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600024",
+        "name": "Kodambakkam - 600024",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600118",
+        "name": "Kodungaiyur - 600118",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Kolapakkam - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Kolathur - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600085",
+        "name": "Kotturpuram - 600085",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603112",
+        "name": "Kovalam  - 603112",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600129",
+        "name": "Kovilambakkam - 600129",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600107",
+        "name": "Koyambedu - 600107",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600092",
+        "name": "Koyambedu Wholesale Market Com - 600092",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600082",
+        "name": "Kumaran Nagar - 600082",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600069",
+        "name": "Kunnathur  - 600069",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Lakshmipuram - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "Lic Colony Tambaram - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600014",
+        "name": "Lloyds Estate - 600014",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600034",
+        "name": "Loyola College - 600034",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600045",
+        "name": "MEPZ Tambaram - 600045",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "MPT AO - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600126",
+        "name": "Madambakkam - 600126",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600091",
+        "name": "Madipakkam - 600091",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600091",
+        "name": "Madipakkam South - 600091",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600002",
+        "name": "Madras Electricity System - 600002",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600003",
+        "name": "Madras Medical College - 600003",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600005",
+        "name": "Madras University - 600005",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 601301",
+        "name": "Malaipattu - 601301",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Mambakkam - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600033",
+        "name": "Mambalam R.S. - 600033",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600125",
+        "name": "Manapakkam - 600125",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600004",
+        "name": "Mandaveli - 600004",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600122",
+        "name": "Mangadu - 600122",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 601301",
+        "name": "Manimangalam - 601301",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Mannady  - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600048",
+        "name": "Mannivakkam - 600048",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600126",
+        "name": "Mappedu - 600126",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600100",
+        "name": "Medavakkam  - 600100",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600010",
+        "name": "Medavakkam Tank Road - 600010",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600016",
+        "name": "Meenambakkam - 600016",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Melakkottaiyur - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Mint Building - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600048",
+        "name": "Mudichur - 600048",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600125",
+        "name": "Mugalivakkam - 600125",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603112",
+        "name": "Muttukadu - 603112",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600004",
+        "name": "Mylapore - 600004",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Nagalkeni - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Nallambakkam - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600069",
+        "name": "Nandambakkam - 600069",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600089",
+        "name": "Nandambakkam Kudiyiruppu - 600089",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600035",
+        "name": "Nandanam - 600035",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600061",
+        "name": "Nanganallur Bazaar - 600061",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600061",
+        "name": "Nanganallur - 600061",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600130",
+        "name": "Navalur - 600130",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600041",
+        "name": "Neelankarai - 600041",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Nehrunagar - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Nemilichery - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600107",
+        "name": "Nerkundram - 600107",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600088",
+        "name": "Nilamangai Nagar - 600088",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600034",
+        "name": "Nungambakkam High Road - 600034",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600034",
+        "name": "Nungambakkam - 600034",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600097",
+        "name": "Oggiamthoraipakkam - 600097",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600006",
+        "name": "Old College Buildings - 600006",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600117",
+        "name": "Old Pallavaram - 600117",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600063",
+        "name": "Old Perungalathur - 600063",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600048",
+        "name": "Otteri Extension - 600048",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 601301",
+        "name": "Padappai - 601301",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Padur - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600041",
+        "name": "Palavakkam  - 600041",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600043",
+        "name": "Pallavaram - 600043",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600100",
+        "name": "Pallikaranai - 600100",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600075",
+        "name": "Pammal East - 600075",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600075",
+        "name": "Pammal - 600075",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600122",
+        "name": "Paraniputhur - 600122",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600003",
+        "name": "Park Town - 600003",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600061",
+        "name": "Pazhavanthangal - 600061",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600012",
+        "name": "Perambur Barracks - 600012",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600011",
+        "name": "Perambur North - 600011",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600011",
+        "name": "Perambur - 600011",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600096",
+        "name": "Perungudi - 600096",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600074",
+        "name": "Polichalur - 600074",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600127",
+        "name": "Ponmar - 600127",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600116",
+        "name": "Porur - 600116",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600018",
+        "name": "Pr. Accountant General - 600018",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Pudupakkam - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600014",
+        "name": "Pudupakkam - 600014",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600012",
+        "name": "Puliyanthope - 600012",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Radhanagar  - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600028",
+        "name": "Raja Annamalaipuram - 600028",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600090",
+        "name": "Rajaji Bhavan - 600090",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600043",
+        "name": "Rajajinagar  - 600043",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600073",
+        "name": "Rajakilpakkam - 600073",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600022",
+        "name": "Rajbhavan  - 600022",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600028",
+        "name": "Ramakrishna Nagar  - 600028",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600089",
+        "name": "Ramapuram  - 600089",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600013",
+        "name": "Rayapuram - 600013",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600003",
+        "name": "Ripon Buildings - 600003",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600014",
+        "name": "Royapettah - 600014",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600118",
+        "name": "Rv Nagar - 600118",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600015",
+        "name": "Saidapet  - 600015",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600093",
+        "name": "Saligramam - 600093",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600119",
+        "name": "Semmanjeri - 600119",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600073",
+        "name": "Selaiyur - 600073",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600011",
+        "name": "Sembiam - 600011",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 601301",
+        "name": "Serpananchery - 601301",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600006",
+        "name": "Shastri Bhavan - 600006",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600020",
+        "name": "Shastri Nagar  - 600020",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600030",
+        "name": "Shenoy Nagar - 600030",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600119",
+        "name": "Sholinganallur - 600119",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600069",
+        "name": "Sirukalathur - 600069",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600126",
+        "name": "Sithalapakkam - 600126",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600069",
+        "name": "Somangalam - 600069",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600069",
+        "name": "South Malayambakkam - 600069",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600001",
+        "name": "Sowcarpet - 600001",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600063",
+        "name": "Srinivasanagar East - 600063",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600063",
+        "name": "Srinivasanagar  - 600063",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600116",
+        "name": "Sriramachandra Deemed Uty - 600116",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600016",
+        "name": "St.Thomas Mount - 600016",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "State Bank Colony - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "Sundaram Colony - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600113",
+        "name": "TTTI Taramani - 600113",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600059",
+        "name": "Tambaram East - 600059",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600045",
+        "name": "Tambaram - 600045",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600046",
+        "name": "Tambaram IAF - 600046",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600047",
+        "name": "Tambaram Sanatorium - 600047",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600045",
+        "name": "Tambaram West - 600045",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600018",
+        "name": "Teynampet - 600018",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600006",
+        "name": "Teynampet West - 600006",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Thaiyur - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600128",
+        "name": "Thandalam - 600128",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600130",
+        "name": "Thazambur- 600130",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603112",
+        "name": "Thiruvidanthai - 603112",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600017",
+        "name": "T.Nagar - 600017",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600017",
+        "name": "T.Nagar North ND - 600017",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600017",
+        "name": "T.Nagar South ND- 600017",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600113",
+        "name": "Tidel Park - 600113",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Tirumudivakkam - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600044",
+        "name": "Tiruneermalai - 600044",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600043",
+        "name": "Tirusulam - 600043",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600005",
+        "name": "Tiruvallikkeni - 600005",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600041",
+        "name": "Tiruvanmiyur - 600041",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600081",
+        "name": "Tondiarpet Bazaar - 600081",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600081",
+        "name": "Tondiarpet - 600081",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600081",
+        "name": "Tondiarpet West - 600081",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600014",
+        "name": "Triplicane South - 600014",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600026",
+        "name": "Vadapalani - 600026",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600087",
+        "name": "Valasaravakkam - 600087",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600041",
+        "name": "Valmiki Nagar - 600041",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600048",
+        "name": "Vandalur - 600048",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600042",
+        "name": "Velacheri - 600042",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600012",
+        "name": "Venkatesapuram - 600012",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600007",
+        "name": "Vepery - 600007",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600092",
+        "name": "Virugambakkam - 600092",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600004",
+        "name": "Vivekananda College Madras - 600004",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600039",
+        "name": "Vyasar Nagar Colony - 600039",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600039",
+        "name": "Vyasarpadi - 600039",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600021",
+        "name": "Washermanpet East - 600021",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600021",
+        "name": "Washermanpet - 600021",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600033",
+        "name": "West Mambalam - 600033",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Egattur - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Siruseri - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 603103",
+        "name": "Perumbakkam - 603103",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600031",
+        "name": "World University Centre - 600031",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600119",
+        "name": "Uthandi - 600119",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    },
+    {
+        "pincode": " 600119",
+        "name": "Panaiyur - 600119",
+        "deliverySlots": [
+            {
+                "startTime": "05:00",
+                "endTime": "08:00"
+            }
+        ],
+        "deliveryAvailable": true,
+        "city": "Chennai"
+    }
+]

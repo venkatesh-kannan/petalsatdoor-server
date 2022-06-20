@@ -1,4 +1,4 @@
-12:32:46.052 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
-12:32:46.547 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
-12:33:04.985 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - petalsatdoor-app-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 200ms, init: 0ms
-12:33:05.079 [NamespaceSystem-blocking-namespace-operation-dispatcher-7:petalsatdoor-app-default-rtdb$-1222429960:] INFO com.firebase.core.namespace.StateManager - Namespace petalsatdoor-app-default-rtdb status Active to Active
+12:45:29.651 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+12:45:30.013 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+12:46:02.443 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - petalsatdoor-app-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 1733ms, init: 0ms
+12:46:02.716 [NamespaceSystem-blocking-namespace-operation-dispatcher-6:petalsatdoor-app-default-rtdb$1311771206:] INFO com.firebase.core.namespace.StateManager - Namespace petalsatdoor-app-default-rtdb status Active to Active
