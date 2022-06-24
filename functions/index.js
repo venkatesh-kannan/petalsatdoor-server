@@ -1,11 +1,13 @@
 const functions = require("firebase-functions");
 const express = require('express');
+const moment = require('moment');
 const Razorpay = require('razorpay');
 const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
 const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
 const { getAuth } = require('firebase-admin/auth');
 const cors = require('cors');
 var { validatePaymentVerification } = require('razorpay/dist/utils/razorpay-utils');
+const { DataSnapshot } = require("firebase-functions/v1/database");
 initializeApp();
 const db = getFirestore();
 const tempOrdersRef = db.collection('orders');
@@ -17,6 +19,12 @@ var instance = new Razorpay({
     key_id: 'rzp_test_0nXcvC2sgAi0cg',
     key_secret: 'DI2hALUlSp5N33ayXLwP9LgP',
 });
+
+const asyncForEach = async (array, callback) => {
+    for (let index = 0; index < array.length; index++) {
+        await callback(array[index], index, array);
+    }
+};
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -67,7 +75,12 @@ app.post('/', async (request, response) => {
         response.send(resp);
     }
     else {
-        await tempOrdersRef.add({ createReq: reqData, createRes: {}, uid: request.body.uid, date: new Date(), paymentType: request.body.paymentType });
+        let docRes = await tempOrdersRef.add({ createReq: reqData, createRes: {}, uid: request.body.uid, date: new Date(), paymentType: request.body.paymentType });
+        const orderDocRef = db.collection('orders').doc(docRes.id);
+        const doc = await orderDocRef.get();
+        if (doc.exists) {
+            await createSubscription(doc.data())
+        }
         response.send({ success: true });
     }
 
@@ -86,6 +99,11 @@ app.put('/validate', async (request, response) => {
         let paymentDetails = await instance.payments.fetch(request.body.razorpay_payment_id);
         console.log(paymentDetails);
         await tempOrdersRef.doc(request.body.razorpay_order_id).set({ validateReq: { razorpay_order_id: request.body.razorpay_order_id, razorpay_payment_id: request.body.razorpay_payment_id, razorpay_signature: request.body.razorpay_signature }, validateRes: authReq, orderRes: paymentDetails }, { merge: true });
+        const orderDocRef = db.collection('orders').doc(request.body.razorpay_order_id);
+        const doc = await orderDocRef.get();
+        if (doc.exists) {
+            await createSubscription(doc.data())
+        }
         paymentDetails.captured ? response.status(200).send({ success: authReq }) : response.status(400).send({ success: false })
     }
     else {
@@ -137,3 +155,68 @@ async function decodeAuthToken(authToken) {
         }
     }
 }
+
+async function createSubscription(data) {
+    const subscriptionsRef = db.collection('subscriptions');
+    let subscription = {};
+    let slots = data.createReq.bookingRequestData.deliverySlot.split(' - ');
+    await asyncForEach(data.createReq.bookingRequestData.cartData, async (item, index) => {
+        let autoId = await getSubscriptionId();
+        let customized = [];
+        if (item?.customizeDays?.length > 0) {
+            item.customizeDays.forEach(days => {
+                if (days.selected) {
+                    customized.push(days)
+                }
+            })
+        }
+        subscription = {
+            productName: item.productName,
+            productId: item.productId,
+            subscriptionId: `S-${autoId + 1}`,
+            autoIncrementID: autoId + 1,
+            unit: item.productDetails.unit,
+            quantity: item.productDetails.quantity,
+            productQuantity: item.quantity,
+            selectedFrequency: item.selectedFrequency,
+            interval: item.selectedInterval ?? '',
+            deliveryPreference: data.createReq.bookingRequestData.deliveryPreference, //
+            customized: customized ?? [],
+            zone: data.createReq.bookingRequestData.zone, //
+            subZone: data.createReq.bookingRequestData.subZone, //
+            uid: data.uid,
+            createdDateTime: moment().format('YYYY-MM-DD hh:mm A'),
+            startDateTime: moment(item.startDate, 'YYYY-MM-DD').format('YYYY-MM-DD hh:mm A'),
+            endDateTime: '',
+            status: 'active' /* active | closed */,
+            selectedSlot: {
+                startTime: slots[0],
+                endTime: slots[1],
+            },
+            address: data.createReq.bookingRequestData.address,
+            amount: item.amount,
+            perDayPrice: item.perDayPrice,
+            city: data.createReq.bookingRequestData.city, //
+            pincode: data.createReq.bookingRequestData.pincode,
+            paymentOrderId: data?.validateReq?.razorpay_order_id ?? '',
+            paymentType: data.paymentType,
+            paymentStatus: data?.validateReq?.razorpay_order_id ? 'completed' : data?.offlinePayment?.status ? 'completed' : 'incomplete',
+            pincode: data.createReq.bookingRequestData.pincode,
+            vaccation: {}
+        };
+        console.log(subscription);
+        await subscriptionsRef.add(subscription);
+    })
+}
+
+async function getSubscriptionId() {
+    const subscriptionsRef = db.collection('subscriptions');
+    const lastThreeRes = await subscriptionsRef.orderBy('autoIncrementID', 'desc').limit(1).get();
+    let autoId = 0;
+    lastThreeRes.docs.forEach(doc => {
+        autoId = doc.data().autoIncrementID
+    })
+    return autoId;
+}
+
+getSubscriptionId();
