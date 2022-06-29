@@ -195,6 +195,7 @@ async function createSubscription(data) {
             },
             address: data.createReq.bookingRequestData.address,
             amount: item.amount,
+            images: item.productDetails.images[0],
             perDayPrice: item.perDayPrice,
             city: data.createReq.bookingRequestData.city, //
             pincode: data.createReq.bookingRequestData.pincode,
